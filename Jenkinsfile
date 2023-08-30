@@ -4,7 +4,7 @@ pipeline {
         stage('Build'){
             steps{
                 echo "Build en cours"
-            }        
+            }  }      
             stage('Test'){
                 steps{
                     echo "Test en cours"
@@ -15,8 +15,7 @@ pipeline {
                     echo "Release en cours"
                 }
             }
-            stage('Deploy'){
-                }
+            stage('Deploy'){                
                 steps{
                     echo "Deploy en cours"
                 }
